@@ -1,5 +1,5 @@
 {
-  "name": "docker-pull",
+  "name": "@vweevers/docker-pull",
   "version": "1.1.0",
   "description": "Pull a docker image from a registry using node",
   "main": "index.js",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/docker-pull.git"
+    "url": "https://github.com/vweevers/docker-pull.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/docker-pull/issues"
+    "url": "https://github.com/vweevers/docker-pull/issues"
   },
-  "homepage": "https://github.com/mafintosh/docker-pull"
+  "homepage": "https://github.com/vweevers/docker-pull"
 }

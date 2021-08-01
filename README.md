@@ -1,15 +1,17 @@
 # docker-pull
 
-Pull a docker image from a registry using node
+**Pull a docker image from a registry using node.**
+
+This is a temporary fork of the `docker-pull` package to include [mafintosh/docker-pull#2](https://github.com/mafintosh/docker-pull/pull/2).
 
 ```
-npm install docker-pull
+npm install @vweevers/docker-pull
 ```
 
 ## Usage
 
 ``` js
-var pull = require('docker-pull')
+var pull = require('@vweevers/docker-pull')
 
 pull('ubuntu', function (err) {
   console.log('was pulled?', !err)
@@ -59,7 +61,7 @@ Emitted when an error happens during communication with the registry.
 There is also a command line tool
 
 ```
-npm install -g docker-pull
+npm install -g @vweevers/docker-pull
 docker-pull ubuntu:14.04
 ```
 
